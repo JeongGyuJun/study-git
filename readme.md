@@ -9,8 +9,8 @@
 ## 기본 명령어
 - git init : git으로 분산관리시스템을 작업을 가능하게 초기화 시켜줌.
 - git status : git 작업이 부여되면 그 디렉터리 상황을 알 수 있음.
-- git add : 
-- git commit : 
-- git log : 
-- git reset --hard : 
-- git rm --cached : 
+- git add : add명령어를 함으로써 작업 디렉토리 영역에서 준비영역으로 이동시킬 수 있음.
+- git commit : git의 변경된 내용을 메세지로 남겨서 확인 할 수 있게 만듬.
+- git log :  commit된 내용을 log 명령어로 확인 할 수 있음.
+- git reset --hard : 로컬 저장소에 있었던 내용을 다시 작업 디렉토리로 가져옴.
+- git rm --cached : 준비영역에 올라가 있던 것들도 rm -cached으로 내릴 수 있다.
