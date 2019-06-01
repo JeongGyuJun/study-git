@@ -14,3 +14,22 @@
 - git log :  commit된 내용을 log 명령어로 확인 할 수 있음.
 - git reset --hard : 로컬 저장소에 있었던 내용을 다시 작업 디렉토리로 가져옴.
 - git rm --cached : 준비영역에 올라가 있던 것들도 rm -cached으로 내릴 수 있다.
+
+
+## 제외목록 설정
+- [.gitignore 파일](https://git-scm.com/docs/gitignore#_pattern_format)
+- [추천 사이트](https://www.gitignore.io/)
+
+## 원격 저장소
+- 목록보기 : git remote -v 
+- 추가하기 : git remote add [별칭] [주소]
+- 삭제하기 : git remote rm [별칭]
+- 별칭수정 : git remote rename [기존별칭] [새 별칭]
+- 주소수정 : git remote set-url [별칭] [변경할주소]
+
+## 브랜치
+- 목록보기 : git branch
+- 생성하기 : git branch [새 브랜치명] 또는 git branch [복사할 브랜치명] [새 브랜치명]
+- 삭제하기 : git branch -d [브랜치명] 
+- 이름변경(이동) : git branch -m [기존 브랜치명] [새 브랜치명]
+- 전환하기 : git checkout [브랜치명]
