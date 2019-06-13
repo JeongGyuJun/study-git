@@ -16,7 +16,7 @@
 - git rm --cached : 준비영역에 올라가 있던 것들도 rm -cached으로 내릴 수 있다.
 
 
-## 제외목록 설정
+## 제외 목록 설정
 - [.gitignore 파일](https://git-scm.com/docs/gitignore#_pattern_format)
 - [추천 사이트](https://www.gitignore.io/)
 
